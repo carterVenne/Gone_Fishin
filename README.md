@@ -2,6 +2,9 @@
 For now just a vanilla file
 
 ## User Story
+AS an avid Fisherperson
+I WANT a way to locate fishing spots
+I ALSO want to be able to record my catches at locations and view others catches
 
 ## App Functionality and Usage
 
