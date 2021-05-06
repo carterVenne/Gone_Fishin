@@ -1,5 +1,5 @@
 # Gone Fishin
-
+The app for finding new fishing holes or reminiscing about past catches.
 
 ## User Story
 AS an avid Fisherperson
