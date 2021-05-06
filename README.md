@@ -13,9 +13,11 @@ I ALSO want to be able to record my catches at locations and view other's catche
 ## Creators
 Authored by: Carter Venne, Mitch Lindquist, & Helen Lindberg
 
-Github repository:
+Github repository: https://github.com/carterVenne/Gone_Fishin
 
-Deployed application: 
+Deployed application (github pages):
+
+Deployed application (heroku): 
 
 Trello: https://trello.com/b/ppwkNiNv/da-board
 
