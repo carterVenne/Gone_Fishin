@@ -1,10 +1,10 @@
 # Gone Fishin
-The app for finding new fishing holes or reminiscing about past catches.
+The app for finding new fishing holes or recording and reminiscing about past catches.
 
 ## User Story
-AS an avid Fisherperson
-I WANT a way to locate fishing spots
-I ALSO want to be able to record my catches at locations and view other's catches
+AS an avid Fisherperson <br>
+I WANT a way to locate fishing spots <br>
+I ALSO want to be able to record my catches at locations and view other's catches across various locations
 
 ## App Functionality and Usage
 
