@@ -1,13 +1,6 @@
 import React from "react";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
-}
+ReactDOM.render(<App />, document.getElementById("root"));
 
 export default App;
