@@ -21,8 +21,7 @@ Deployed application (heroku):
 
 Trello: https://trello.com/b/ppwkNiNv/da-board
 
-Powerpoint Presentation:
-
+Powerpoint Presentation: https://1drv.ms/p/s!AoiR3FwAqJOdj2U_TE_xp2fUhAiK?e=6TRANV
 
 # License
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
