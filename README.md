@@ -10,6 +10,15 @@ I ALSO want to be able to record my catches at locations and view other's catche
 Gone Fishin' was designed with both the avid and beginner fisherperson in mind with an easy to use interface, ability to find new fishing spots and check out other's catches or record your own. With a simple to use search function and google map display it's easy as a gentle lake breeze to find the best fishing holes in your area. With catches being recorded you can check what species are on record in a potential lake along with basic info such as length and weight. So what are you waiting for? Get out and cast!
 
 ## A Look at Gone Fishin'
+Login:
+<img>
+<br>
+Homepage:
+<img>
+<br>
+Local Lake:
+<img>
+<br>
 
 ## Creators
 Authored by: Carter Venne, Mitch Lindquist, & Helen Lindberg
