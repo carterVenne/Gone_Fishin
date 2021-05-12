@@ -1,4 +1,5 @@
 const express = require("express");
+const mongoose = require("mongoose");
 const mongojs = require("mongojs");
 const compression = require('compression');
 const helmet = require("helmet");
