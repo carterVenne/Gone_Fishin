@@ -1,6 +1,6 @@
 import React from "react";
 import AccountCreationForm from "../AccountCreationForm";
 import AccountCreationBtn from "../AccountCreationBtn";
-import "./style.css";
+import "../styles/AccountCreationCard.css";
 
 export default AccountCreationCard;

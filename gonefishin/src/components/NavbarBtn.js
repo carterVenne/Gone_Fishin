@@ -1,4 +1,4 @@
 import React from "react";
-import "./style.css";
+import "../styles/NavbarBtn.css";
 
 export default NavbarBtn;

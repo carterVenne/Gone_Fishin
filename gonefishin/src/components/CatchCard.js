@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../styles/CatchCard.css";
 import CatchCardBody from "../CatchCardBody";
 import CatchCardHeading from "../CatchCardHeading";
 
