@@ -1,4 +1,4 @@
-import React from "react";
-import "../styles/Footer.css";
+// import React from "react";
+// import "../styles/Footer.css";
 
-export default Footer;
+// export default Footer;

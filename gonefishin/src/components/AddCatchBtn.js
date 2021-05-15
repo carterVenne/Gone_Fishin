@@ -1,4 +1,4 @@
-import React from "react";
-import "../styles/AddCatchBtn.css";
+// import React from "react";
+// import "../styles/AddCatchBtn.css";
 
-export default AddCatchBtn;
+// export default AddCatchBtn;

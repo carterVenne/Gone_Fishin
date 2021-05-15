@@ -1,4 +1,4 @@
-import React from "react";
-import "../styles/SearchBtn.css";
+// import React from "react";
+// import "../styles/SearchBtn.css";
 
-export default SearchBtn;
+// export default SearchBtn;
