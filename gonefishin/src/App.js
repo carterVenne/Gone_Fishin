@@ -6,10 +6,15 @@ import Lakes from "./pages/Lakes";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import './App.css';
+import { Auth0Provider } from "@auth0/auth0-react"
 
 function App() {
 // paths below need corresponding routes
     return (
+    <Auth0Provider
+    domain="YOUR_DOMAIN"
+    clientId="YOUR_CLIENT_ID"
+    redirectUri={window.location.origin}>
         <Router>
         <div>
           <Navbar />
@@ -26,7 +31,8 @@ function App() {
             </Switch>
           <Footer />
         </div>
-    </Router>
+        </Router>
+    </Auth0Provider>
       );
 }
 
