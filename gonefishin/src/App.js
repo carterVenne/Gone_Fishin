@@ -4,6 +4,7 @@ import Map from './pages/MainMap/Map';
 import Minnetonka from './pages/Lakes/Minnetonka';
 import Red from './pages/Lakes/Red';
 import Login from './pages/Login/Login';
+import './styles/main.css';
 
 function App() {
   return (
