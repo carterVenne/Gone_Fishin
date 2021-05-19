@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import AccountCreationBtn from "../AccountCreationBtn";
+import AccountCreationBtn from "./AccountCreationBtn";
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 function AccountCreationForm() {
