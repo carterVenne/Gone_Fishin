@@ -1,6 +1,10 @@
-// import React from "react";
-// import AccountCreationForm from "../AccountCreationForm";
-// import AccountCreationBtn from "../AccountCreationBtn";
-// import "../styles/AccountCreationCard.css";
+import React from "react";
+import AccountCreationForm from "../AccountCreationForm";
 
-// export default AccountCreationCard;
+function AccountCreationCard() {
+    return <div className="h-screen bg-white flex flex-col space-y-10 justify-right items-center">
+        <AccountCreationForm/>
+    </div>
+}
+
+export default AccountCreationCard;
