@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/AccountCreationBtn.css";
 import '../styles/main.css';
 
 function AccountCreationBtn(props) {
