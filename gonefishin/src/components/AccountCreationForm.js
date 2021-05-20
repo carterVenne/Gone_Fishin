@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/main.css';
 import { useAuth0 } from "@auth0/auth0-react";
 import AccountCreationBtn from "./AccountCreationBtn";
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -26,9 +27,9 @@ function AccountCreationForm() {
   <div x-show="dropdownOpen" OnClick="dropdownOpen = false" className="fixed inset-0 h-full w-full z-10"></div>
 
   <div x-show="dropdownOpen" className="absolute right-0 mt-2 w-48 bg-white rounded-md overflow-hidden shadow-xl z-20">
-    <a href="#" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Beginner <span className="text-gray-600">You're new to fishing</span></a>
-    <a href="#" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Experienced <span className="text-gray-600">You can cast with confidence</span></a>
-    <a href="#" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Pro <span className="text-gray-600">You spool reels in your sleep</span></a>
+    <a href="" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Beginner <span className="text-gray-600">You're new to fishing</span></a>
+    <a href="" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Experienced <span className="text-gray-600">You can cast with confidence</span></a>
+    <a href="" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Pro <span className="text-gray-600">You spool reels in your sleep</span></a>
   </div>
 </div>
                     <input type="text" className="w-full h-12 border border-gray-800 rounded px-3" placeholder="Email" />
