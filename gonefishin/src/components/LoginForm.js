@@ -5,15 +5,14 @@ import '../styles/main.css';
 function LoginForm() {
     const { loginWithRedirect } = useAuth0();
     return(
-            <div className="bg-gray w-96 shadow-xl rounded p-5 pb-5">
-                <h1 className="text-3xl font-medium text-center">Login</h1>
+            <div className="bg-yellow-800 bg-opacity-50 w-96 shadow-xl rounded p-5 pb-5">
+                <h1 className="text-3xl font-medium text-white text-center">Login</h1>
     
                     <form className="space-y-5 mt-5">
-                        <input type="text" class="w-full h-12 border border-gray-800 rounded px-3" placeholder="Email" />
-                         <div className="w-full flex items-center border border-gray-800 rounded px-3">
-                        <input type="text" class="w-4/5 h-12" placeholder="Password" />
+                        <input type="text" class="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Email" />
+                        <input type="text" class="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Password" />
                         {/* <span className="text-green-700 hover:bg-blue-400 rounded-md px-3">Show</span> */}
-                </div>
+                
 
                     <div class="">
                         <a href="#!" className="font-medium text-green-800 hover:bg-yellow-700 hover:text-white rounded-md p-2">Forgot Password ?</a>
