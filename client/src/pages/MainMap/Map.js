@@ -24,7 +24,7 @@ const markers = [
   }
 ];
 
-const google = window.google
+
 
 function Map() {
   const [activeMarker, setActiveMarker] = useState(null);
@@ -37,7 +37,7 @@ function Map() {
   };
 
   const handleOnLoad = (map) => {
-    const bounds = new google.maps.LatLngBounds();
+    const bounds = new window.google.maps.LatLngBounds();
     markers.forEach(({ position }) => bounds.extend(position));
     map.fitBounds(bounds);
   };
