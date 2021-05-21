@@ -5,7 +5,7 @@ import LoginHeader from "../../components/LoginHeader";
 
 function Login(){
     return(
-    <div>
+    <div className="object-center">
         <LoginHeader/>
         <LoginCard/>
         <AccountCreationCard/>

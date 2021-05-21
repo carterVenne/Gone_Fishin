@@ -5,9 +5,8 @@ import '../styles/main.css';
 function LoginForm() {
     const { loginWithRedirect } = useAuth0();
     return(
-            <div className="bg-brown w-96 shadow-xl rounded p-5">
-                <h1 className="text-3xl font-medium">Welcome</h1>
-                    <p className="text-sm">Please login or create an account</p>
+            <div className="bg-gray w-96 shadow-xl rounded p-5 pb-5">
+                <h1 className="text-3xl font-medium text-center">Login</h1>
     
                     <form className="space-y-5 mt-5">
                         <input type="text" class="w-full h-12 border border-gray-800 rounded px-3" placeholder="Email" />
