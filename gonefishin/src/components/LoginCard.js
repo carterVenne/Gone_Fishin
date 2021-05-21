@@ -4,7 +4,7 @@ import LoginForm from "./LoginForm";
 import '../styles/main.css';
 
 function LoginCard() {
-    return <div className="h-auto bg-white flex flex-col space-y-10 object-center items-center">
+    return <div className="h-auto bg-white flex flex-col space-y-10 object-center items-center pb-5">
         <LoginForm/>
     </div>
 }

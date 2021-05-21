@@ -5,9 +5,11 @@ import LoginHeader from "../../components/LoginHeader";
 
 function Login(){
     return(
-    <div className="object-center">
+    <div>
         <LoginHeader/>
+        <br></br>
         <LoginCard/>
+        <br></br>
         <AccountCreationCard/>
     </div>
     )
