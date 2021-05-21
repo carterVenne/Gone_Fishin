@@ -15,7 +15,7 @@ function LoginForm() {
                 
 
                     <div class="">
-                        <a href="#!" className="font-medium text-green-800 hover:bg-yellow-700 hover:text-white rounded-md p-2">Forgot Password ?</a>
+                        <a href="#!" className="font-medium text-green-800 hover:bg-yellow-700 hover:text-white rounded-md p-2">Forgot Password?</a>
                     </div>
 
                 <button onClick={() => loginWithRedirect()} class="text-center w-full bg-green-800 hover:bg-yellow-800 rounded-md text-white py-3 font-medium">Login</button>

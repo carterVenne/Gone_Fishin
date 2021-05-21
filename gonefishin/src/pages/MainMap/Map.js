@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import Header from "../../components/Header"
 
 const mapStyles = {
   width: '50%',
@@ -10,8 +11,9 @@ const mapStyles = {
 export class MapContainer extends Component {
   render() {
     return (
-      
-      <div className="map-area">
+      <div>
+          <Header/>
+      <div className="map-area object-center items-center">
         
       <Map
         google={this.props.google}
@@ -30,6 +32,7 @@ export class MapContainer extends Component {
       />
       </Map>
      
+</div>
 </div>
     );
   }
