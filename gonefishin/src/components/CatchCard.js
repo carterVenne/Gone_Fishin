@@ -1,5 +1,5 @@
 // import React from "react";
-// import "../styles/CatchCard.css";
+// import '../styles/main.css';
 // import CatchCardBody from "../CatchCardBody";
 // import CatchCardHeading from "../CatchCardHeading";
 

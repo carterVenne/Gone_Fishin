@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/LoginCard.css";
+
 import LoginForm from "./LoginForm";
-// import LoginBtn from "../LoginBtn";
+import '../styles/main.css';
 
 function LoginCard() {
-    return <div className="h-auto bg-white flex flex-col space-y-10 object-left items-left">
+    return <div className="h-auto bg-white flex flex-col space-y-10 object-center items-center pb-5">
         <LoginForm/>
     </div>
 }

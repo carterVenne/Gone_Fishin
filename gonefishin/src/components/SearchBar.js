@@ -1,4 +1,4 @@
 // import React from "react";
-// import "../styles/SearchBar.css";
+// import '../styles/main.css';
 
 // export default SearchBar;
