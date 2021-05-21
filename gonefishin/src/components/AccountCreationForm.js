@@ -7,11 +7,11 @@ import AccountCreationBtn from "./AccountCreationBtn";
 function AccountCreationForm() {
     const { loginWithRedirect } = useAuth0();
     return(
-        <div className="align-middle bg-brown w-96 shadow-xl rounded p-5">
-            <h1 className="text-3xl text-center font-medium">Create an account</h1>
+        <div className="bg-yellow-800 bg-opacity-50 w-96 shadow-xl rounded p-5">
+            <h1 className="text-3xl text-center text-white font-medium">Create an account</h1>
 
                 <form className="space-y-5 mt-5">
-                <input type="text" className="w-full h-12 border border-gray-800 rounded px-3" placeholder="Name" />
+                <input type="text" className="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Name" />
                 {/* <input type="text" className="w-full h-12 border border-gray-800 rounded px-3" placeholder="Username" /> */}
                 {/* <button className="py-2 px-4 capitalize tracking-wide bg-green-800 text-white font-medium rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Select a skill level</button>
                 <span className="border"></span>
@@ -31,10 +31,8 @@ function AccountCreationForm() {
                 <a href="" className="block px-4 py-2 text-sm text-gray-800 border-b hover:bg-gray-200">Pro <span className="text-gray-600">(You spool reels in your sleep)</span></a>
               </div> */}
             {/* </div> */}
-                    <input type="text" className="w-full h-12 border border-gray-800 rounded px-3" placeholder="Email" />
-                     <div className="w-full flex items-center border border-gray-800 rounded px-3">
-                    <input type="text" className="w-4/5 h-12" placeholder="Password" />
-            </div>
+                    <input type="text" className="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="E-mail" />
+                    <input type="text" className="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Password" />
 
             <AccountCreationBtn/>
         </form>
