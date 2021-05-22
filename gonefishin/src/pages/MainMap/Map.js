@@ -13,7 +13,7 @@ export class MapContainer extends Component {
     return (
       <div>
           <Header/>
-      <div className="map-area object-center items-center">
+      <div className="map-area object-center item-center">
         
       <Map
         google={this.props.google}

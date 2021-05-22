@@ -8,7 +8,8 @@ function AccountCreationForm() {
     const { loginWithRedirect } = useAuth0();
     return(
         <div className="bg-yellow-800 bg-opacity-50 w-96 shadow-xl rounded p-5">
-            <h1 className="text-3xl text-center text-white font-medium">Create an account</h1>
+            <h1 className="text-3xl text-center text-underline text-white font-medium underline">Create an account</h1>
+            <p className="text-md text-center text-white"> Please log in above if you already have an account</p>
 
                 <form className="space-y-5 mt-5">
                 <input type="text" className="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Name" />

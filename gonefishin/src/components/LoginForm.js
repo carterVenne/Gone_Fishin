@@ -6,7 +6,7 @@ function LoginForm() {
     const { loginWithRedirect } = useAuth0();
     return(
             <div className="bg-yellow-800 bg-opacity-50 w-96 shadow-xl rounded p-5 pb-5">
-                <h1 className="text-3xl font-medium text-white text-center">Login</h1>
+                <h1 className="text-3xl font-medium underline text-white text-center">Login</h1>
     
                     <form className="space-y-5 mt-5">
                         <input type="text" class="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Email" />
