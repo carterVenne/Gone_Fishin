@@ -9,16 +9,15 @@ function LoginForm() {
                 <h1 className="text-3xl font-medium underline text-white text-center">Login</h1>
     
                     <form className="space-y-5 mt-5">
-                        <input type="text" class="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Email" />
-                        <input type="text" class="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Password" />
-                        {/* <span className="text-green-700 hover:bg-blue-400 rounded-md px-3">Show</span> */}
+                        <input type="text" className="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Email" />
+                        <input type="text" className="placeholder-white w-full h-12 bg-blue-300 bg-opacity-75 border border-gray-800 rounded px-3" placeholder="Password" />
                 
 
-                    <div class="">
+                    <div className="">
                         <a href="#!" className="font-medium text-green-800 hover:bg-yellow-700 hover:text-white rounded-md p-2">Forgot Password?</a>
                     </div>
 
-                <button onClick={() => loginWithRedirect()} class="text-center w-full bg-green-800 hover:bg-yellow-800 rounded-md text-white py-3 font-medium">Login</button>
+                <button onClick={() => loginWithRedirect()} className="text-center w-full bg-green-800 hover:bg-yellow-800 rounded-md text-white py-3 font-medium">Login</button>
             </form>
          </div>
     );
